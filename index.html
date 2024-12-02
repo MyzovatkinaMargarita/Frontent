@@ -1,1 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keyword" content="Пекарня, выпечка,булочки ">
+    <meta name="description" content="Лучшая пекарня в Москве">
+    <link rel="stylesheet" href="style.css">
+    <title>Пекарня</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#welcome" class="nav__link"> Информация про нас</a></li>
+                <li class="nav__item"><a href="#assortment" class="nav__link">Ассортимент</a></li>
+                <li class="nav__item"><a href="#feedback" class="nav__link">Оставить отзыв</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <main class="main">
+
+        <section class="welcome" id="welcome">
+            <div class="container">
+                <h1 class="welcome__title">Уютная пекарня в центре Москвы.</h1>
+                <h2 class="welcome__subtitle">Приходите к нам за самой свежей выпечкой.</h2>
+                <div class="welcome__promo">
+                    <video src="sources/promo.mp4" width="600" height="300" controls autoplay></video>
+                    <audio src="sources/promo.mp4" controls autoplay></audio>
+            </div>
+            <table class="viewing">
+                <caption class="viewing__title">Ассортимент</caption>
+
+                <tr class="viewing__item">
+                    <th class="viewing__cell">Название</th>
+                    <td class="viewing__cell">Мини пицца</td>
+                    <td class="viewing__cell">Булочка с джемом</td>
+                    <td class="viewing__cell">Синнабон</td>
+                </tr>
+
+                <tr class="viewing__item">
+                    <th class="viewing__cell">Цена</th>
+                    <td class="viewing__cell">500 руб.</td>
+                    <td class="viewing__cell">300 руб.</td>
+                    <td class="viewing__cell">400 руб.</td>
+                </tr>
+
+                <tr class="viewing__item">
+                    <th class="viewing__cell">Описание</th>
+                    <td class="viewing__cell">Сочная пицца , пропитанная ароматом колбасы,соусов,томатов,огурчиков и свежего лука</td>
+                    <td class="viewing__cell">Нежная булочка выпекаемая с любовью. вы можнте выбрать  булочку с клубничным джемом, сливовым,вишневым и черничным</td>
+                    <td class="viewing__cell">Круглая булочка с мягким и пушистым тестом , слоистым внутри и покрытым глазурью.</td>
+                </tr>
+
+            </table>  
+            </div>
+        </section>
+        <section class="assortment" id="assortment">
+            <div class="container">
+                <div class="assortment__wrap">
+                    <div class="assortment__item">
+                        <img src="sources/assortment-1.jpg" alt="Выпечка" class="assortment__img" width="600" height="300">
+                        <h3 class="assortment__subtitle">Мини пицца</h3>
+                        <p class="assortment__description">это небольшие пиццы индивидуального размера, которые готовят на лепёшках не более 9 см в диаметре. В оригинале их называют пиццеттой.</p>
+                     </div>
+
+                     <div class="assortment__item">
+                        <img src="sources/assortment-2.jpg" alt="Выпечка" class="assortment__img" width="600" height="300">
+                        <h3 class="assortment__subtitle">Булочка с джемом</h3>
+                        <p class="assortment__description">это ароматная и вкусная выпечка, вкус и запах которой известен каждому с детства. Такие мягкие и пышные булочки понравятся и взрослым, и детям. </p>
+                     </div>
+
+                     <div class="assortment__item">
+                        <img src="sources/assortment-3.jpg" alt="Выпечка" class="assortment__img" width="600" height="300">
+                        <h3 class="assortment__subtitle">Синнабон</h3>
+                        <p class="assortment__description">это вид сладкой выпечки, который представляет собой круглую булочку с мягким и пушистым тестом, слоистым внутри и покрытой глазурью. </p>
+                     </div>
+                </div>
+            </div>
+         </section>
+         <section class="feedback" id="feedback">
+            <div class="container">
+                <div class="feedback__wrap">
+                    <h2 class="feedback__title">Оставить отзыв</h2>
+                    <form action="#" method="GET" class="form">
+                        <input type="text" name="name" placeholder="Имя" class="form__name">
+                        <input type="text" name="text" placeholder="Отзыв" class="feedback">
+                        <select name="Pies" class="form__pies">
+                            <option value="0">Мини пицца</option>
+                            <option value="1">Булочка с джемом</option>
+                            <option value="2">Синнабон</option>
+                        </select>
+                        <textarea name="wishes" placeholder="Ваши предложения по улучшению пекарни" class="form__wishes"></textarea>
+                    <button class="form__send">Отправить</button>
+                    </form>
+                </div>
+            </div>
+         </section>
+    </main>
+    <footer class="footer">
+        <h2 class="footer__title">@ Pecarna 2024 Компания ИП ГВМН ОООООООООО</h2>
+    </footer>
+
+    <script>
+        "use strict";
+        let form = document.querySelector(".form");
+
+        let formName = form.querySelector(".form__name");
+        let formText = form.querySelector(".form__feedback")
+        let buttonSend = form.querySelector(".form__send");
+
+        buttonSend.addEventListener("click", function () {
+            formName.value = "";
+            formfeedback.value = "";
+        });
+
+    </script>
+    
+</body>
+</html>
