@@ -1,0 +1,158 @@
+body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+            
+        }
+        header {
+            background-color: #f7924e;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+           
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+            position: fixed;
+            
+
+           
+           
+            
+        }
+        main {
+            display: flex;
+            margin-top: 20px;
+            
+            
+        }
+        section {
+            flex: 2;
+            padding: 20px;
+            background-color: white;
+            margin-right: 20px;
+            
+            
+           
+        }
+
+        footer {
+            width:1500px;
+            height: 700px;
+            background-color: rgb(243, 150, 44);
+
+        }
+
+        .block-one {
+            height: 400px;
+            width: 300px;
+            background-color: rgb(252, 83, 5);
+            position: relative;
+            
+            
+        }
+
+        .voice_P {
+            height: 60px;
+            width: 150px;
+            background-color: gold;
+            position: static;
+        }
+
+        .block-two {
+            height: 400px;
+            width: 300px;
+            background-color: rgb(252, 83, 5);
+
+        }
+        .voice_B {
+            height: 60px;
+            width: 150px;
+            background-color: gold;
+            position:static;
+        }
+
+
+        .WHAT_THEYRE_TALKING_ABOUT {
+            height: 400px;
+            width: 300px;
+            background-color: chocolate;
+
+
+        }
+
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            background-color:#f7924e ;
+
+        }
+
+       
+          
+        aside {
+            flex: 1;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+
+        .We_are_Leader_in_Agriculture_Market {
+            height: 200px;
+            width: 400px;
+            background-color: rgb(255, 166, 0);
+            position: static;
+            display: flex;
+            flex-wrap: wrap;
+            background: linear-gradient(#e42f2f, #e3e63a);
+            border-radius: 5px;
+        }
+
+        .uk-button{
+            height: 40px;
+            width: 800px;
+            background-color: rgb(255, 145, 0);
+            position:static;
+        }
+
+        .uk-button :hover {
+             color: blue;
+            }
+
+
+        .uk-button :focus { 
+             background-color: rgb(230, 173, 208); 
+            }
+         
+        .uk-button :active {
+             background-color: red;
+            }
+        
+        
+            
+            
+        
+        
+         
+         
+
+
+       
+        
+    
+
+        
