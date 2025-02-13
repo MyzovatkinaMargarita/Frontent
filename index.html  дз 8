@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Позиционирование и нормализация стилей</title>
+    
+    
+
+   
+</head>
+<body>
+    
+    <header>  
+    <h1>Шаблон страницы</h1>
+</header>
+
+
+<nav>
+    <ul>
+        <li><a href="#">Главная</a></li>
+        <li><a href="#">О нас</a></li>
+        <li><a href="#">Контакты</a></li>
+    </ul>
+</nav>
+
+<main>
+    <section>
+        
+        <h2>Ассортимент</h2>
+        <ul>
+            <li>Эклер</li>
+             <li>Булочка с корицей</li>
+             <li>Фирменный торт</li>
+             <li>Блины</li>
+             <li>Пироги</li>
+        </ul>
+        <p>Скоро будут новинки</p>
+    </section>
+    <aside>
+        <h2>Отзывы о выпечке</h2>
+        <p>Хочу поблагодарить за чудесные пироги! Из года в год выбираю Главпирог!!!
+            В этом году пироги настолько свежие -просто улёт!!! Все коллеги спросили, откуда такие вкусные?!!!
+            Огромная благодарность!!!</p>
+    </aside>
+    
+    
+</main>
+
+<footer>
+    <section>
+        <div class="container">
+        <div class="block-one">
+          <img src="https://yandex.ru/images/search?from=tabbar&img_url=https%3A%2F%2Fmain-cdn.sbermegamarket.ru%2Fhlr-system%2F100%2F195%2F223%2F391%2F402%2F9%2F100039738200b0.jpg&lr=21154&pos=24&rpt=simage&text=%D1%81%D0%B2%D0%B5%D1%82%D0%BB%D0%B0%D1%8F%20%D0%B1%D1%83%D0%BB%D0%BA%D0%B0"  alt="bylka">
+            <h2> Наши лучшие пекари </h2>
+            <ul>
+                <li>Малинина Ольга Михайловна</li>
+                <li>Захаров Денис Владимирович </li>
+                <li>Румянцева Галина Федоровна</li>
+            </ul>
+            <div class="voice_P">
+            <h3> Проголосовать за пекарей</h3>
+        </div>
+        </div>
+        <div class="WHAT_THEYRE_TALKING_ABOUT">
+            <h2>"WHAT THEY’RE TALKING ABOUT</h2>
+            <ul>
+                <li>Пекари: Мы делаем эти булки днями и ночами , а они нас даже не уважают!</li>
+                <li>Булки: А за что их уважать ? Пусть сами попробуют час в духовке выдержать.</li>
+                <li>Пекари: Та ну их , они слишком жесткие ,уже мазоли на руках...</li>
+                <li>Булки:У них хотя бы мазоли , а не ожоги...</li>
+                <li>Итог: Пекари съели все булочки , спор был окончен.</li>
+            </ul>
+
+        </div>
+        <div class="block-two">
+            <img src="https://yandex.ru/images/search?from=tabbar&img_url=http%3A%2F%2Fi.ytimg.com%2Fvi%2FOi7PUYDXE6Q%2Fmaxresdefault.jpg&lr=21154&pos=14&rpt=simage&text=%D1%81%D0%B2%D0%B5%D1%82%D0%BBsq%20gbhju" alt="perog">
+            <h2>Новинки</h2>
+            <ul>
+                <li>Пицца</li>
+                <li>Булка с маком </li>
+                <li>Бургер</li>
+            </ul>
+            <div class="voice_B">
+                <h3> Проголосовать за булок</h3>
+            </div>     
+        </div>
+     </div>  
+
+    </section> 
+
+    <div class=" We_are_Leader_in_Agriculture_Market ">
+        <img src="https://yandex.ru/images/search?from=tabbar&img_url=https%3A%2F%2Fimg.goodfon.com%2Foriginal%2F5184x2951%2F2%2F3a%2Fnatiurmort-tykva-kukuruza.jpg&lr=21154&pos=4&rpt=simage&text=%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B0%20%D1%81%D0%B5%D0%BB%D1%8C%D1%81%D0%BA%D0%BE%D1%85%D0%BE%D0%B7%D1%8F%D0%B9%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%BE%D0%B9%20%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%86%D0%B8%D0%B8" alt="Продукция">
+         <h2>Наша Продукция</h2>
+         <ul>
+            <li>Мясо</li>
+            <li>Пшено</li>
+            <li>Овощи</li>
+            <li>Молочные продукты</li>
+         </ul>
+         <div class="uk-button"  href="https://yandex.ru/images/search?from=tabbar&img_url=http%3A%2F%2Fp1.zoon.ru%2Fpreview%2FR8HmaSnSIMATPOvXIQb7cQ%2F2400x1500x85%2F1%2Fe%2F6%2Foriginal_5578938340c08886048b6bea_57e8fe044ac49.jpg&lr=21154&p=2&pos=11&rpt=simage&text=%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B0%20%D1%81%D0%B5%D0%BB%D1%8C%D1%81%D0%BA%D0%BE%D1%85%D0%BE%D0%B7%D1%8F%D0%B9%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%BE%D0%B9%20%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%86%D0%B8%D0%B8" alt=" Трактор в поле">
+         <button class="uk-button" type="reset">Кнопка</button>
+         </div>
+    </div>
+
+</footer>
+</body>
+</html>
+
+
+    
+ 
