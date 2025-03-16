@@ -1,0 +1,10 @@
+let userName = "Анна";
+let userAge = 20;
+let isStudent = "Студент";
+   
+        console.log(userName)
+        console.log(userAge)
+        console.log(isStudent)
+
+
+
