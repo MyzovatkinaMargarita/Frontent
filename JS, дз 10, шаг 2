@@ -1,0 +1,5 @@
+function create(name,isStudent, age ) {
+        return { name: "Анна", isStudent: true, age: 21};
+}
+let user = create("Анна",true, 21,);
+console.log(user);
